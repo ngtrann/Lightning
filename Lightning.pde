@@ -9,9 +9,17 @@ void setup()
 }
 void draw()
 {
+cloud();
 stroke(255,255,0);
 }
 void mousePressed()
 {
 
+}
+
+void cloud()
+{
+ noStroke();
+ ellipse (200,80,100,100);
+ ellipse (200,120,250,50);
 }
